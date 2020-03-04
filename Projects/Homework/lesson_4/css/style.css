@@ -1,0 +1,54 @@
+body {
+    font-family: Spartan, serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 712px;
+    min-width: 360px;
+    padding: 80px 20px 20px 5px;
+    font-size: 18px;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    background-color: #A52B2A;
+}
+
+.sunset {
+    width: 98%;
+    padding-bottom: 20px;
+}
+
+p {
+    max-width: 96%;
+    text-align: left;
+}
+
+span {
+    color: #2427d6;
+}
+
+.em1 {
+    font-weight: 900;
+}
+
+.car {
+    text-align: center;
+}
+
+.car1, .car2, .car3, .car4, .car5 {
+    border-style: dashed;
+    border-color: #000000;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+}
