@@ -17,33 +17,41 @@ body {
 h1 {
     color: #FFFFFF;
     background-color: #A52B2A;
+    font-size: 2em;
+    font-weight: bolder;
 }
 
 .sunset {
     width: 98%;
-    padding-bottom: 20px;
+    padding: 25px 0 20px;
 }
 
 p {
     max-width: 96%;
     text-align: left;
+    line-height: 1.35;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
 
 span {
     color: #2427d6;
 }
 
-.em1 {
-    font-weight: 900;
-}
-
 .car {
+    padding: 20px 0;
     text-align: center;
 }
 
-.car1, .car2, .car3, .car4, .car5 {
+.carborder {
+    border: 3px black;
     border-style: dashed;
-    border-color: #000000;
 }
 
 footer {
