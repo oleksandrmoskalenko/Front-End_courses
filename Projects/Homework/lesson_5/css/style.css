@@ -5,7 +5,7 @@ body {
 .container {
     width: 99%;
     font-size: 18px;
-    background-color: rgb(202, 32, 32);
+    background-color: #990909;
     margin: auto;
     padding: 0 3px 0 10px;
 }
@@ -58,22 +58,22 @@ p {
 }
 
 .leftColumn {
-    background-color: darkred;
+    background-color: #7d0909;
     width: 45%;
-    color: darkorange;
+    color: #e95b11;
     text-decoration: underline;
 }
 
 .rightColumn {
     width: 40%;
-    background-color: #d3d3d3;
+    background-color: #e3dddd;
     padding-bottom: 10px;
 }
 
 .rightColumn h2 {
     text-align: center;
     font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.966);
+    background-color: #bdbdbd;
 }
 
 .rightColumn p {
@@ -89,5 +89,5 @@ footer h2 {
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
-    background-color: darkorange;
+    background-color: #e95b11;
 }
