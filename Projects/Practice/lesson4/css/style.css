@@ -17,8 +17,66 @@ body {
     text-transform: uppercase;
 }
 
+h1.title {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    color: #0ec8cb;
+}
+
 .subTitle {
     font-size: 12px;
     font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
 }
 
+.content {
+    display: flex;
+}
+
+.element {
+    background: #f7f7f7;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ececec;
+    padding: 55px 2.5% 75px;
+    width: 25%;
+    transition: 1.3s;
+}
+
+.picture {
+    height: 70px;
+    margin-bottom: 45px;
+}
+
+.element h2 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    margin-bottom: 25px;
+}
+
+.element p {
+    font-size: 14px;
+}
+
+.element:hover {
+    background: #0ec8cb;
+    border-radius: 10px;
+    z-index: 99;
+    position: relative;
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 0 #1b1b1b73;
+}
+
+.element:hover h2,
+.element:hover p {
+    color: white;
+}
+
+.element:hover svg {
+    fill: white;
+}
