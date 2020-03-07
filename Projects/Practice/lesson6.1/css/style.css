@@ -30,7 +30,6 @@ button {
 p {
     font-size: 13px;
     color: var(--color-main);
-    padding-top: 21px;
 }
 
 h2 {
@@ -46,6 +45,7 @@ h2 {
     cursor: pointer;
     margin-bottom: 5px;
     height: 60px;
+    align-items: center;
     background-color: #ebebed;
     transition: 0.5s;
     }
