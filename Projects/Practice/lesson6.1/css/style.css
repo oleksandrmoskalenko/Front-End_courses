@@ -62,4 +62,9 @@ h2 {
 .circle {
     height: 60px;
     padding: 9px;
+    
 }
+
+/* a, p {
+    display: inline-block;
+} */
