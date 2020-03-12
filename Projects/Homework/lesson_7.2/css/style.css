@@ -1,0 +1,116 @@
+body {
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    background-color: #3b3f45;
+    padding-bottom: 100px;
+}
+
+.header {
+    background-color: #4a4f56;
+    color: #eb7e7f;
+    padding: 20px 0;
+    line-height: 1.35;
+    text-align: center;
+}
+
+.content {
+    background-color: #3b3f45;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 30px 195px;
+}
+
+input {
+    width: 26px;
+    height: 26px;
+}
+
+li {
+    display: flex;
+    padding: 20px;
+    transition: all .1s ease-in;
+}
+
+li:nth-child(1), li:nth-child(3), li:nth-child(5)  {
+    background-color: #88839e;
+}
+
+li:nth-child(2), li:nth-child(4), li:nth-child(6) {
+    background-color: #7a7593;
+}
+
+li:hover {
+    background: #625e77;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    z-index: 99;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 25px 0 #1b1b1b73;
+}
+
+li:hover:active {
+    background: rgba(255,0,0,0.3);
+}
+
+input+label p {
+    padding-left: 10px;
+}
+
+.p1::after {
+    content: " (for the next lessons about CSS)";
+    font-size: 16px;
+    color: #aebdd6;
+}
+
+.p2::after {
+    content: " (for more CSS manipulations)";
+    font-size: 16px;
+    color: #aebdd6;
+}
+
+.p3::after {
+    content: " (because they are awesome)";
+    font-size: 16px;
+    color: #aebdd6;
+}
+
+.p4::after {
+    content: " (hm... they always disappear)";
+    font-size: 16px;
+    color: #aebdd6;
+}
+
+.p6::after {
+    content: " (for my friends)";
+    font-size: 16px;
+    color: #aebdd6;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: #4a4f56;
+    color: #eb7e7f;
+    text-align: center;
+    padding: 20px 0;
+}
+
+input:checked+label p{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+input:active~li{
+    background-color: #906e75;
+}
