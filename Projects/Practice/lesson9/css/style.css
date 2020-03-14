@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #e2e7ec;
+    font: 700 21px/1.3 'Raleway', sans-serif;
+    color: #1D1D1D;
+}
+
+.container {
+    text-transform: uppercase;
+    margin: 90px 0 111px;
+}
+
+.articles {
+    width: 1120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.picture:not(.car) {
+    width: 360px;
+    height: 540px;
+    background-color: #fff;
+}
+
+.picture {
+    padding: 0px auto;
+    margin-bottom: 15px;
+}
+
+.car-first-child {
+    position: absolute;
+    bottom: 360px;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.date {
+    font-size: 13px;
+    padding: 15px 0;
+    color: #bcc5cd;
+}
+
+.date:not(.date0) {
+    padding-left: 30px;
+}
+
+.text {
+    padding: 0 30px 70px 30px;
+}
+
+.text0 {
+    font-size: 24px;
+}
+
+.logo {
+    padding: 0 30px;
+}
+
+.loading {
+    display: flex;
+    padding-top: 85px;
+    color: #bcc5cd;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading p {
+    padding: 15px;
+    font-size: 11px;
+}
