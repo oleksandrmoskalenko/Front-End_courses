@@ -82,3 +82,31 @@ img {
     font-size: 20px;
     line-height: 1.35;
 }
+
+.smile {
+    position: absolute;
+    background-color: rgba(71,88,165, 0.5);
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 5px solid #21bfb9;
+    top: 200px;
+    right: 733px;
+    -webkit-transition: -webkit-transform 1.5s;
+    transition: transform 1.5s;
+}
+
+.smile-text {
+    position: relative;
+    display: flex;
+    color: #fff;
+    font-size: 48px;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+}
+
+.smile:hover {
+    -webkit-transform: translate3D(-680px,447px,0) rotate(1080deg);
+    transform: translate3D(-680px,447px,0) rotate(1080deg);
+}
