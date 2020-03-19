@@ -1,0 +1,91 @@
+:root {
+    --main-color: #3e7c99;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--main-color);
+    font-family: sans-serif;
+    color: var(--main-color);
+}
+
+section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.content {
+    padding: 32px;
+    background: #fff;
+    width: 480px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 32px;
+    text-align: center;
+}
+
+.answers {
+    display: flex;
+    justify-content: center;
+}
+
+.answer-group {
+    padding: 10px 15px;
+    color: #fff;
+    margin: 0 15px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.answer-group:first-child {
+    background: #01546a;
+}
+
+.answer-group:last-child {
+    background: #63246a;
+}
+
+/* .answer-group:hover {
+    filter: brightness(1.5);
+} */
+
+input {
+    display: none;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+input + .content {
+    display: none;
+    position: absolute;
+    color: var(--main-color);
+    top: 0;
+    left: 0;
+}
+
+#yes:checked + .content {
+    display: block;
+}
+
+#no:checked + .content {
+    display: block;
+}
