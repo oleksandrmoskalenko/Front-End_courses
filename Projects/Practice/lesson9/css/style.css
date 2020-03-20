@@ -13,10 +13,13 @@ body {
     color: var(--main-color);
 }
 
+section, .content, .result {
+    display: flex;
+    align-items: center;
+}
+
 section {
-   display: flex;
    justify-content: center;
-   align-items: center;
    height: 100vh;
 }
 
@@ -25,9 +28,7 @@ section {
     background: #fff;
     width: 480px;
     height: 400px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-direction: column;
     position: relative;
 }
@@ -82,10 +83,16 @@ input + .content {
     left: 0;
 }
 
-#yes:checked + .content {
+#yes:checked + .content, #no:checked + .content {
     display: block;
 }
 
-#no:checked + .content {
-    display: block;
+.smile {
+    width: 50%;
+}
+
+.result {
+    height: 336px;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
