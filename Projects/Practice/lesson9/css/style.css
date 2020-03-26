@@ -13,7 +13,7 @@ body {
     color: var(--main-color);
 }
 
-section, .content, .result {
+section, .content, .result, .replay {
     display: flex;
     align-items: center;
 }
@@ -83,7 +83,7 @@ input + .content {
     left: 0;
 }
 
-#yes:checked + .content, #no:checked + .content {
+:checked + .content {
     display: block;
 }
 
@@ -95,4 +95,13 @@ input + .content {
     height: 336px;
     justify-content: space-evenly;
     flex-direction: column;
+}
+
+
+.replay {
+    width: 200px;
+    height: 40px;
+    background: #ff0000;
+    color: #fff;
+    justify-content: center;
 }
